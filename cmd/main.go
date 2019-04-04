@@ -13,7 +13,7 @@ var usage = `Usage: hexdump2file [-h] [-o OUTPUT_FILE_NAME] [INPUT_FILE_NAME]
 
 Options:
 	-h: show this usage
-	-o: specific output filename, default is [INPUT_FILE_NAME].bin
+	-o: specify output filename, default is [INPUT_FILE_NAME].bin
 `
 
 func ErrorHandler() {
