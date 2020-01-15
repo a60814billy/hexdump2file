@@ -6,5 +6,5 @@ name: default
 steps:
   - name: build
     image: golang:1.13
-    command:
+    commands:
       - go build ./cmd/main.go
